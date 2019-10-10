@@ -4,7 +4,11 @@ event void FHaltSpeed();
 class AMobiusGameMode : AGameModeBase
 {
     float GlobalMovementSpeed = 9000;
-    float SpeedIncreaseAmount = 600;
+    float SpeedIncreaseAmount = 700;
+    // float PlayerSpeed = 4870000000.0f;
+
+    float MaxHealthRef = 3;
+    float HealthRef = 3;
 
     bool GameStarted = false;
     bool CanScore = true;
@@ -67,9 +71,11 @@ class AMobiusGameMode : AGameModeBase
     UFUNCTION()
     void CallIncreaseSpeedDelegate()
     {
-        EventSpeedIncrease.Broadcast();
         GlobalMovementSpeed += SpeedIncreaseAmount;
         SpeedIncreaseAmount *= 0.95f;
+        // PlayerSpeed *= 2;
+        // Print("GM P Speed: " + PlayerSpeed, 5);
+        EventSpeedIncrease.Broadcast();
     }
 
 }

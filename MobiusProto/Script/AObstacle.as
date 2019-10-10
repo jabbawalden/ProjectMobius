@@ -63,7 +63,7 @@ class AObstacle : AActor
     UFUNCTION(BlueprintOverride)
     void Tick(float DeltaSeconds)
     {
-        MoveLevel(DeltaSeconds);
+        MoveObject(DeltaSeconds);
         if (GetActorLocation().X <= - 10500)
         {
             DestroyActor();
@@ -80,8 +80,10 @@ class AObstacle : AActor
 
         if(Player != nullptr && ObstacleType != EObstacleType::Point) 
         {
-            Player.Health--;
+            Player.DamagePlayer(1);
+
             Print("" + Player.Health, 5);
+            
             if (Player.Health <= 0) 
             {
                 GameMode.HaltSpeed();
@@ -139,7 +141,7 @@ class AObstacle : AActor
     }
 
     UFUNCTION()
-    void MoveLevel(float DeltaSeconds)
+    void MoveObject(float DeltaSeconds)
     {   
         FVector CurrentLoc = GetActorLocation();
         FVector NextLoc = CurrentLoc += FVector(-MovementSpeed * DeltaSeconds, 0, 0);
@@ -150,6 +152,6 @@ class AObstacle : AActor
     UFUNCTION()
     void MoveSide()
     {
-        
+
     }
 }

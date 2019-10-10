@@ -1,7 +1,10 @@
 import UWidgetScore;
+import AMobiusGameMode;
 
 class AMainPlayer : APawn
 {
+    AMobiusGameMode GameMode; 
+
     UPROPERTY(DefaultComponent, RootComponent)
     UBoxComponent BoxCollision;
     default BoxCollision.SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
@@ -35,8 +38,8 @@ class AMainPlayer : APawn
     UPROPERTY()
     float MovementSpeed = 3000;
 
-    UPROPERTY()
-    float Health = 3;
+    float MaxHealth = 3;
+    float Health;
 
     UPROPERTY(DefaultComponent)
     UFloatingPawnMovement FloatingPawnMovement;
@@ -62,10 +65,14 @@ class AMainPlayer : APawn
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
+        Health = MaxHealth;
+        GameMode = Cast<AMobiusGameMode>(Gameplay::GetGameMode());
+        // MovementSpeed = GameMode.PlayerSpeed;
+        // GameMode.EventSpeedIncrease.AddUFunction(this, n"UpdateMovementSpeed");
+
         PlayerInputSetup();
         APlayerController PlayerController = Gameplay::GetPlayerController(0);
         AddWidgetToHUD(PlayerController, WidgetClass);
-        
     }
 
     UFUNCTION(BlueprintOverride)
@@ -120,5 +127,19 @@ class AMainPlayer : APawn
     {
         CanFire = false;
     }
+
+    UFUNCTION()
+    void DamagePlayer(int DamageAmount)
+    {
+        Health -= DamageAmount;
+        GameMode.HealthRef = Health;
+    }
+
+    // UFUNCTION()
+    // void UpdateMovementSpeed()
+    // {
+    //     MovementSpeed = GameMode.PlayerSpeed;
+    //     Print("Player Speed: " + MovementSpeed, 5);
+    // }
 
 } 

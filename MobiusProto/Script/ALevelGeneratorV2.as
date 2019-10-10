@@ -30,6 +30,7 @@ class ALevelGeneratorV2 : AActor
     UPROPERTY()
     TArray<AActor> ObstacleStateArray;
 
+
     UPROPERTY(DefaultComponent, Attach = BoxCollision)
     UBoxComponent SpawnTriggerComp;
     default SpawnTriggerComp.SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
@@ -46,6 +47,10 @@ class ALevelGeneratorV2 : AActor
     UPROPERTY()
     TSubclassOf<AActor> ObstacleType;
     AActor Obstacle;
+
+    UPROPERTY()
+    TSubclassOf<AActor> HealingItemType;
+    AActor HealingItem;
 
     UPROPERTY()
     float MovementSpeed = 3000; //AMobiusGameMode.GlobalMovementSpeed;
@@ -71,25 +76,37 @@ class ALevelGeneratorV2 : AActor
     UPROPERTY()
     TArray<float> ChosenXIndex;
 
+    bool CanSpawnHealing;
+
     UFUNCTION(BlueprintOverride)
     void BeginPlay() 
     {
         // Print("Level Generated", 5);
-
         XMaxCount = 15;
         XMinCount = 10;
 
         SpawnTriggerComp.OnComponentBeginOverlap.AddUFunction(this, n"TriggerOnBeginOverlap");
 
         GameMode = Cast<AMobiusGameMode>(Gameplay::GetGameMode());
-        MovementSpeed = GameMode.GlobalMovementSpeed;
 
-        GameMode.EventSpeedIncrease.AddUFunction(this, n"MatchGlobalSpeed");
-        GameMode.EventHaltSpeed.AddUFunction(this, n"MatchGlobalSpeed");
+        if (GameMode != nullptr)
+        {
+            MovementSpeed = GameMode.GlobalMovementSpeed;
+            GameMode.EventSpeedIncrease.AddUFunction(this, n"MatchGlobalSpeed");
+            GameMode.EventHaltSpeed.AddUFunction(this, n"MatchGlobalSpeed");
+            if (GameMode.HealthRef < GameMode.MaxHealthRef)
+            {
+                Print("CAN GENERATE HEALING ITEMS", 5);
+                CanSpawnHealing = true;
+            }
+        }
+
 
         ConstructObstaclePositions();
         GenerateObstacles();
         SetObstacleType();
+
+        
     }
 
     UFUNCTION(BlueprintOverride)

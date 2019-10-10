@@ -14,7 +14,7 @@ class UWidgetScore : UUserWidget
     UFUNCTION(BlueprintOverride)
     void Construct()
     {
-
+        GameMode = Cast<AMobiusGameMode>(Gameplay::GetGameMode());
     }
 
     UFUNCTION()
@@ -28,7 +28,7 @@ class UWidgetScore : UUserWidget
     UFUNCTION(BlueprintOverride)
     void Tick(FGeometry MyGeo ,float DeltaSeconds)
     {
-
+        UpdateScoreText(GameMode.Points);
     }
 }
 
@@ -39,6 +39,7 @@ void AddWidgetToHUD(APlayerController PlayerController, TSubclassOf<UWidgetScore
     UUserWidget UserWidget = WidgetBlueprint::CreateWidget(WidgetClass, PlayerController);
     UserWidget.AddToViewport();
 }
+
 
 
 
