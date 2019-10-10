@@ -3093,3 +3093,59 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.10-18.01.53:730][810]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD98AFF67-4A92-0BF1-9DC4-BFAB8927DE21%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.23.0-0%2B%2B%2BUE4%2BRelease-4.23&UserID=a3bd0d2f4585b6a2e3fdd384eae29166%7Cccb48b301bbc497aa5c422652c5ddcc0%7C82a744d4-b599-4806-b2e9-7a7ddaa4f341&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
 [2019.10.10-18.01.53:730][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2019.10.10-18.01.54:231][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.54:731][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.55:232][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.55:733][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.56:233][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.56:734][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.57:235][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.57:735][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.58:236][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.58:737][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.59:238][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.01.59:738][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.00:239][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.00:740][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.01:240][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.01:741][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.02:242][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.02:742][810]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.10.10-18.02.03:243][810]LogHttp: Warning: 00000224848E7600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD98AFF67-4A92-0BF1-9DC4-BFAB8927DE21%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.23.0-0%2B%2B%2BUE4%2BRelease-4.23&UserID=a3bd0d2f4585b6a2e3fdd384eae29166%7Cccb48b301bbc497aa5c422652c5ddcc0%7C82a744d4-b599-4806-b2e9-7a7ddaa4f341&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.10-18.02.03:243][810]LogHttp: Warning: 00000224848E7600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.10.10-18.02.03:243][810]LogHttp: Warning: 00000224848E7600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.10.10-18.02.03:243][810]LogHttp: Warning: 00000224848E7600: libcurl info message cache 1 (Closing connection 11)
+[2019.10.10-18.02.03:266][810]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.10.10-18.02.03:268][810]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.10.10-18.02.03:269][810]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.10.10-18.02.03:269][810]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.10.10-18.02.03:269][810]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.10.10-18.02.03:270][810]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.10-18.02.03:271][810]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.10-18.02.03:271][810]LogD3D11RHI: Shutdown
+[2019.10.10-18.02.03:271][810]LogD3D11RHI: CleanupD3DDevice
+[2019.10.10-18.02.03:272][810]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.10-18.02.03:272][810]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.10-18.02.03:272][810]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.10-18.02.03:361][810]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.10-18.02.03:371][810]LogExit: Exiting.
+[2019.10.10-18.02.03:381][810]Log file closed, 10/10/19 20:02:03
