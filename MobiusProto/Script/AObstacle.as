@@ -2,6 +2,7 @@ import AMobiusGameMode;
 import AMainPlayer;
 
 enum EObstacleType {Block, Breakable, Point} 
+enum EObstacleState {Static, Moving}
 
 class AObstacle : AActor 
 {
@@ -39,6 +40,12 @@ class AObstacle : AActor
 
     UPROPERTY()
     float MovementSpeed = 3000; //GameMode.GlobalMovementSpeed;
+
+    UPROPERTY()
+    float SideSpeed = 2000;
+
+    float yMin = -1000;
+    float yMax = 1000;
 
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
@@ -85,9 +92,6 @@ class AObstacle : AActor
             {
                 DestroyActor();
             }
-
-
-
             // if (ObstacleType == EObstacleType::Block)
             // {
 
@@ -98,8 +102,6 @@ class AObstacle : AActor
             //     Print("Breakable Gives Points",5);
             //     //Spawn Pick Up that will add points
             // }
-
-        
         }
     }
 
@@ -126,7 +128,6 @@ class AObstacle : AActor
             PickUpRef = SpawnActor(PickUpType, GetActorLocation() + FVector(0,0,100));
             DestroyActor();
         }
-
     }
 
     UFUNCTION()
@@ -144,5 +145,11 @@ class AObstacle : AActor
         FVector NextLoc = CurrentLoc += FVector(-MovementSpeed * DeltaSeconds, 0, 0);
         // Print("Level Loc is " + NextLoc, 5);
         SetActorLocation(NextLoc);
+    }
+
+    UFUNCTION()
+    void MoveSide()
+    {
+        
     }
 }

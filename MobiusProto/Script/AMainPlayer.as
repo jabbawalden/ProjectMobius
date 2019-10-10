@@ -1,3 +1,5 @@
+import UWidgetScore;
+
 class AMainPlayer : APawn
 {
     UPROPERTY(DefaultComponent, RootComponent)
@@ -16,6 +18,11 @@ class AMainPlayer : APawn
     UPROPERTY()
     TSubclassOf<AActor> ProjectileType;
     AActor ProjectileRef;
+
+    UPROPERTY()
+    TSubclassOf<UWidgetScore> WidgetClass;
+    UPROPERTY()
+    UWidgetScore MyScoreWidget;
 
     bool CanFire = false;
 
@@ -56,6 +63,9 @@ class AMainPlayer : APawn
     void BeginPlay()
     {
         PlayerInputSetup();
+        APlayerController PlayerController = Gameplay::GetPlayerController(0);
+        AddWidgetToHUD(PlayerController, WidgetClass);
+        
     }
 
     UFUNCTION(BlueprintOverride)
@@ -74,6 +84,7 @@ class AMainPlayer : APawn
     UFUNCTION()
     void PlayerInputSetup()
     {
+        Print("Input set", 10);
         InputComp.BindAxis(n"MoveRight", FInputAxisHandlerDynamicSignature(this, n"MoveSides"));
         InputComp.BindAction(n"RestartLevel", EInputEvent::IE_Pressed, FInputActionHandlerDynamicSignature (this, n"CallRestartLevel"));
         InputComp.BindAction(n"FireGun", EInputEvent::IE_Pressed, FInputActionHandlerDynamicSignature(this, n"FireWeaponOn"));
