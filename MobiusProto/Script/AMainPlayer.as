@@ -58,6 +58,17 @@ class AMainPlayer : APawn
     bool IsAlive = true;
     bool CannotMove = false;
 
+    float Ypos1 = -888.0;
+    float Ypos2 = -288.0;
+    float Ypos3 = 312.0;
+    float Ypos4 = 912.0;
+
+
+    int CurrentYPosition = 2;
+
+    float NewMoveTime = 0;
+    float MoveRate = 0.23;
+
     UFUNCTION(BlueprintOverride)
     void ConstructionScript()
     {
@@ -83,7 +94,18 @@ class AMainPlayer : APawn
     UFUNCTION(BlueprintOverride)
     void Tick(float DeltaSeconds) 
     {
-        if (CanFire && IsAlive)
+        if (IsAlive)
+        {
+            HandleFiring();
+            HandleYMovement();
+        }
+
+    }
+
+    UFUNCTION()
+    void HandleFiring()
+    {
+        if (CanFire)
         {
             if (NextFire <= Gameplay::TimeSeconds)
             {
@@ -103,10 +125,87 @@ class AMainPlayer : APawn
     }
 
     UFUNCTION()
+    void HandleYMovement()
+    {
+        float CurrentYLoc = GetActorLocation().Y;
+        float NextYLoc = 0;
+
+        float CamYCurrentLoc = SpringArm.GetRelativeLocation().Y;
+        float CamYNewLoc = 0;
+        float NextCamYLocDivider = 0;
+        if (CurrentYPosition == 1)
+        {
+            NextYLoc = Ypos1;
+            NextCamYLocDivider = Ypos4 / 6;
+            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
+            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        }
+        else if (CurrentYPosition == 2)
+        {
+            NextYLoc = Ypos2;
+            NextCamYLocDivider = Ypos3 / 6;
+            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
+            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        }
+        else if (CurrentYPosition == 3)
+        {
+            NextYLoc = Ypos3;
+            NextCamYLocDivider = Ypos2 / 6;
+            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
+            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        }
+        else if (CurrentYPosition == 4)
+        {
+            NextYLoc = Ypos4;
+            NextCamYLocDivider = Ypos1 / 6;
+            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
+            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        }
+
+        float MovementValue = FMath::Lerp(CurrentYLoc, NextYLoc, 0.05f);
+
+        SetActorLocation(FVector(GetActorLocation().X, MovementValue, GetActorLocation().Z));
+
+        //for some reason this did not work...
+
+        // Switch(CurrentYPosition)
+        // {
+        //     case 1:
+        //     NextYLoc = Ypos1;
+        //     break;
+        //     case 2:
+        //     NextYLoc = Ypos2;
+        //     break;
+        //     case 3:
+        //     NextYLoc = Ypos3; 
+        //     break;
+        //     case 4;
+        //     NextYLoc = Ypos4;
+        //     break;
+        // }
+
+    }
+
+    UFUNCTION()
     void MoveSides(float AxisValue)
     {
-        if(IsAlive) 
+        if(IsAlive && AxisValue != 0 && NewMoveTime <= Gameplay::TimeSeconds) 
         {
+            if (AxisValue < 0 && CurrentYPosition > 1)
+            {
+                NewMoveTime = Gameplay::TimeSeconds + MoveRate;
+                CurrentYPosition--;
+                Print("Moved to " + CurrentYPosition, 5);
+            }
+            else if (AxisValue > 0 && CurrentYPosition < 4)
+            {
+                NewMoveTime = Gameplay::TimeSeconds + MoveRate;
+                CurrentYPosition++;
+                Print("Moved to " + CurrentYPosition, 5);
+            }
+
+
+            /*
             if (AxisValue < 0 && GetActorLocation().Y <= -920)
             {
                 CannotMove = true;
@@ -124,6 +223,7 @@ class AMainPlayer : APawn
             {
                 AddMovementInput(ControlRotation.RightVector, AxisValue * MovementSpeed, true);
             }
+            */
         }
     }
 

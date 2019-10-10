@@ -3,8 +3,8 @@ event void FHaltSpeed();
 
 class AMobiusGameMode : AGameModeBase
 {
-    float GlobalMovementSpeed = 9000;
-    float SpeedIncreaseAmount = 700;
+    float GlobalMovementSpeed = 10000;
+    float SpeedIncreaseAmount = 1000;
     // float PlayerSpeed = 4870000000.0f;
 
     int MaxHealthRef = 3;
@@ -16,16 +16,11 @@ class AMobiusGameMode : AGameModeBase
     FSpeedDifficultyIncrease EventSpeedIncrease; 
     FHaltSpeed EventHaltSpeed;
 
-    // UPROPERTY()
-    // TArray<AActor> SpawnedLevels;
-
     UPROPERTY()
     float PointRate = 0.1f;
 
     UPROPERTY()
     float NewTime;
-
-    //when array is above 2, delete the first element and remove from array
 
     UPROPERTY()
     int Points;
@@ -33,13 +28,12 @@ class AMobiusGameMode : AGameModeBase
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
-        //Print(" " + GlobalMovementSpeed, 5);
+
     }
 
     UFUNCTION(BlueprintOverride)
     void Tick(float DeltaSeconds)
     {
-        //Print(" " + GlobalMovementSpeed, 5);
         ScorePoints();
     }
 
