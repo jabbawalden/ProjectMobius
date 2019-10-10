@@ -100,13 +100,9 @@ class ALevelGeneratorV2 : AActor
                 CanSpawnHealing = true;
             }
         }
-
-
         ConstructObstaclePositions();
         GenerateObstacles();
         SetObstacleType();
-
-        
     }
 
     UFUNCTION(BlueprintOverride)
@@ -301,20 +297,36 @@ class ALevelGeneratorV2 : AActor
     UFUNCTION()
     void SetObstacleType()
     {
-        int MaxBreakables = FMath::RandRange(2,6);
+        int MaxBreakables = FMath::RandRange(2,4);
         int Index = FMath::RandRange(0,2);
+        int HealthTypeChance = FMath::RandRange(0,3);
+        int HealthIndex = FMath::RandRange(0, ObstacleStateArray.Num() - 1);
 
         for (int i = 0; i < ObstacleStateArray.Num(); i++)
         {
             if (i == Index) 
             {
-                Index += MaxBreakables;
-                AActor ObstacleRef = ObstacleStateArray[i];
-                AObstacle ObstacleClass = Cast<AObstacle>(ObstacleRef);
-                if (ObstacleClass != nullptr)
+                if (i == HealthIndex)
                 {
-                    ObstacleClass.ObstacleTypeDeclared(false);
+                    //make into health index
+                    AActor ObstacleRef = ObstacleStateArray[i];
+                    AObstacle ObstacleClass = Cast<AObstacle>(ObstacleRef);
+                    if (ObstacleClass != nullptr)
+                    {
+                        ObstacleClass.ObstacleTypeDeclared(EObstacleType::Healing);
+                    }
                 }
+                else 
+                {
+                    Index += MaxBreakables;
+                    AActor ObstacleRef = ObstacleStateArray[i];
+                    AObstacle ObstacleClass = Cast<AObstacle>(ObstacleRef);
+                    if (ObstacleClass != nullptr)
+                    {
+                        ObstacleClass.ObstacleTypeDeclared(EObstacleType::Breakable);
+                    }
+                }
+
             }
         }   
     }

@@ -1,7 +1,7 @@
 import AMobiusGameMode;
 import AMainPlayer;
 
-enum EObstacleType {Block, Breakable, Point} 
+enum EObstacleType {Block, Breakable, Healing, Point} 
 enum EObstacleState {Static, Moving}
 
 class AObstacle : AActor 
@@ -19,10 +19,16 @@ class AObstacle : AActor
     UMaterial MatBlock;
     UPROPERTY()
     UMaterial MatBreak;
+    UPROPERTY()
+    UMaterial MatHeal;
 
     UPROPERTY()
     TSubclassOf<AActor> PickUpType;
     AActor PickUpRef;
+
+    UPROPERTY()
+    TSubclassOf<AActor> HealthPickUpType;
+    AActor HealthPickUpRef;
 
     UPROPERTY(DefaultComponent, Attach = SceneComp)
     UBoxComponent BoxCollision;
@@ -108,17 +114,22 @@ class AObstacle : AActor
     }
 
     UFUNCTION()
-    void ObstacleTypeDeclared(bool IsBlock)
+    void ObstacleTypeDeclared(EObstacleType ObsType)
     {
-        if (IsBlock)
+        if (ObsType ==  EObstacleType::Block)
         {
             ObstacleType = EObstacleType::Block;
             MeshComp.SetMaterial(0, MatBlock);
         }
-        else if (!IsBlock)
+        else if (ObsType ==  EObstacleType::Breakable)
         {
             ObstacleType = EObstacleType::Breakable;
             MeshComp.SetMaterial(0, MatBreak);
+        }
+        else if (ObsType ==  EObstacleType::Healing)
+        {
+            ObstacleType = EObstacleType::Healing;
+            MeshComp.SetMaterial(0, MatHeal);
         }
     }
 
@@ -128,6 +139,11 @@ class AObstacle : AActor
         if (ObstacleType == EObstacleType::Breakable)
         {
             PickUpRef = SpawnActor(PickUpType, GetActorLocation() + FVector(0,0,100));
+            DestroyActor();
+        }
+        else if (ObstacleType == EObstacleType::Healing)
+        {
+            HealthPickUpRef = SpawnActor(HealthPickUpType, GetActorLocation() + FVector(0,0,100));
             DestroyActor();
         }
     }

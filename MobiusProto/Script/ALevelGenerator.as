@@ -1,5 +1,8 @@
+import AMobiusGameMode;
+
 class ALevelGenerator : AActor 
 {
+    AMobiusGameMode GameMode;
 
     UPROPERTY(DefaultComponent, RootComponent)
     UBoxComponent BoxCollision;
@@ -39,7 +42,13 @@ class ALevelGenerator : AActor
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
-        Print("New Level Generated", 5);
+        GameMode = Cast<AMobiusGameMode>(Gameplay::GetGameMode());
+
+        if (GameMode != nullptr)
+        {
+            Print("" + GameMode.HealthRef, 5); 
+        }
+
         SpawnTriggerComp.OnComponentBeginOverlap.AddUFunction(this, n"TriggerOnBeginOverlap");
         Print("" + MeshCompMain.GetBoundingBoxExtents(), 5);
         MeshCompV2.SetRelativeLocation(FVector(MeshCompMain.GetBoundingBoxExtents().X * 0.165f, 0, 0));

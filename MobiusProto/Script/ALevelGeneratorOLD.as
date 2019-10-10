@@ -294,7 +294,7 @@ class ALevelGeneratorOLD : AActor
                 AObstacle ObstacleClass = Cast<AObstacle>(ObstacleRef);
                 if (ObstacleClass != nullptr)
                 {
-                    ObstacleClass.ObstacleTypeDeclared(false);
+                    // ObstacleClass.ObstacleTypeDeclared(false);
                 }
             }
         }   
