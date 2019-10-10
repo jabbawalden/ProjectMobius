@@ -57,7 +57,7 @@ class AObstacle : AActor
     void Tick(float DeltaSeconds)
     {
         MoveLevel(DeltaSeconds);
-        if (GetActorLocation().X <= - 7500)
+        if (GetActorLocation().X <= - 8500)
         {
             DestroyActor();
         }
@@ -123,7 +123,7 @@ class AObstacle : AActor
     {   
         if (ObstacleType == EObstacleType::Breakable)
         {
-            PickUpRef = SpawnActor(PickUpType, GetActorLocation());
+            PickUpRef = SpawnActor(PickUpType, GetActorLocation() + FVector(0,0,100));
             DestroyActor();
         }
 

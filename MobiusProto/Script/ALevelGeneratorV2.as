@@ -84,15 +84,24 @@ class ALevelGeneratorV2 : AActor
         GameMode = Cast<AMobiusGameMode>(Gameplay::GetGameMode());
         MovementSpeed = GameMode.GlobalMovementSpeed;
 
+        GameMode.EventSpeedIncrease.AddUFunction(this, n"MatchGlobalSpeed");
+        GameMode.EventHaltSpeed.AddUFunction(this, n"MatchGlobalSpeed");
+
         ConstructObstaclePositions();
         GenerateObstacles();
-              SetObstacleType();
+        SetObstacleType();
     }
 
     UFUNCTION(BlueprintOverride)
     void Tick(float DeltaSeconds)
     {
         MoveLevel(DeltaSeconds);
+    }
+
+    UFUNCTION()
+    void MatchGlobalSpeed()
+    {
+        MovementSpeed = GameMode.GlobalMovementSpeed;
     }
 
     UFUNCTION()
@@ -150,10 +159,9 @@ class ALevelGeneratorV2 : AActor
 
         if (GameMode.GameStarted)
         {
-            XPos += MeshComp.GetWorldScale().X * 50;
+            XPos += MeshComp.GetWorldScale().X * 60;
         }
-
-        if (!GameMode.GameStarted)
+        else if (!GameMode.GameStarted)
         {
             GameMode.GameStarted = true;
         }

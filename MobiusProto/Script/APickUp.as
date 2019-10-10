@@ -5,7 +5,7 @@ class APickUp : AActor
 {
     AMobiusGameMode GameMode;
 
-    float RotateSpeed = 500;
+    float RotateSpeed = 300;
 
     float MovementSpeed;
 
@@ -36,7 +36,7 @@ class APickUp : AActor
         RotatePickUp(DeltaSeconds);
         MovePickUp(DeltaSeconds);
 
-        if (GetActorLocation().X <= - 7500)
+        if (GetActorLocation().X <= - 8500)
         {
             DestroyActor();
         }
