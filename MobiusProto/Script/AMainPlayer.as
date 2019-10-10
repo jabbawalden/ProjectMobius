@@ -67,7 +67,7 @@ class AMainPlayer : APawn
     int CurrentYPosition = 2;
 
     float NewMoveTime = 0;
-    float MoveRate = 0.23;
+    float MoveRate = 0.235;
 
     UFUNCTION(BlueprintOverride)
     void ConstructionScript()
@@ -133,56 +133,74 @@ class AMainPlayer : APawn
         float CamYCurrentLoc = SpringArm.GetRelativeLocation().Y;
         float CamYNewLoc = 0;
         float NextCamYLocDivider = 0;
-        if (CurrentYPosition == 1)
+
+        switch(CurrentYPosition)
         {
-            NextYLoc = Ypos1;
-            NextCamYLocDivider = Ypos4 / 6;
-            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
-            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
-        }
-        else if (CurrentYPosition == 2)
-        {
-            NextYLoc = Ypos2;
-            NextCamYLocDivider = Ypos3 / 6;
-            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
-            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
-        }
-        else if (CurrentYPosition == 3)
-        {
-            NextYLoc = Ypos3;
-            NextCamYLocDivider = Ypos2 / 6;
-            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
-            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
-        }
-        else if (CurrentYPosition == 4)
-        {
-            NextYLoc = Ypos4;
-            NextCamYLocDivider = Ypos1 / 6;
-            CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.08f); 
-            SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+
+            case 1:
+                NextYLoc = Ypos1;
+                NextCamYLocDivider = Ypos4 / 6;
+                CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.35f); 
+                SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+                break;
+            case 2:
+                NextYLoc = Ypos2;
+                NextCamYLocDivider = Ypos3 / 7;
+                CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.35f); 
+                SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+                break;
+            case 3:
+                NextYLoc = Ypos3;
+                NextCamYLocDivider = Ypos2 / 7;
+                CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.35f); 
+                SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0)); 
+                break;
+            case 4:
+                NextYLoc = Ypos4;
+                NextCamYLocDivider = Ypos1 / 6;
+                CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.35f); 
+                SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+                break;
         }
 
-        float MovementValue = FMath::Lerp(CurrentYLoc, NextYLoc, 0.05f);
+        
+        float MovementValue = FMath::Lerp(CurrentYLoc, NextYLoc, 0.3f);
 
         SetActorLocation(FVector(GetActorLocation().X, MovementValue, GetActorLocation().Z));
 
+        // if (CurrentYPosition == 1)
+        // {
+        //     NextYLoc = Ypos1;
+        //     NextCamYLocDivider = Ypos4 / 7;
+        //     CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.05f); 
+        //     SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        // }
+        // else if (CurrentYPosition == 2)
+        // {
+        //     NextYLoc = Ypos2;
+        //     NextCamYLocDivider = Ypos3 / 7;
+        //     CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.05f); 
+        //     SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        // }
+        // else if (CurrentYPosition == 3)
+        // {
+        //     NextYLoc = Ypos3;
+        //     NextCamYLocDivider = Ypos2 / 7;
+        //     CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.05f); 
+        //     SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        // }
+        // else if (CurrentYPosition == 4)
+        // {
+        //     NextYLoc = Ypos4;
+        //     NextCamYLocDivider = Ypos1 / 7;
+        //     CamYNewLoc = FMath::Lerp(CamYCurrentLoc, NextCamYLocDivider, 0.05f); 
+        //     SpringArm.SetRelativeLocation(FVector(0,CamYNewLoc,0));
+        // }
+
+
         //for some reason this did not work...
 
-        // Switch(CurrentYPosition)
-        // {
-        //     case 1:
-        //     NextYLoc = Ypos1;
-        //     break;
-        //     case 2:
-        //     NextYLoc = Ypos2;
-        //     break;
-        //     case 3:
-        //     NextYLoc = Ypos3; 
-        //     break;
-        //     case 4;
-        //     NextYLoc = Ypos4;
-        //     break;
-        // }
+
 
     }
 
