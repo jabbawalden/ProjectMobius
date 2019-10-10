@@ -7,8 +7,8 @@ class AMobiusGameMode : AGameModeBase
     float SpeedIncreaseAmount = 700;
     // float PlayerSpeed = 4870000000.0f;
 
-    float MaxHealthRef = 3;
-    float HealthRef = 3;
+    int MaxHealthRef = 3;
+    int HealthRef = 3;
 
     bool GameStarted = false;
     bool CanScore = true;
@@ -51,8 +51,6 @@ class AMobiusGameMode : AGameModeBase
             Points++;
             NewTime = Gameplay::TimeSeconds + PointRate;
         }
-
-        Print("Points: " + Points, 0);
     }
 
     UFUNCTION()

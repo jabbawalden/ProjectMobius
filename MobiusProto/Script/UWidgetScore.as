@@ -33,9 +33,8 @@ class UWidgetScore : UUserWidget
 }
 
 UFUNCTION(Category = "Player HUD")
-void AddWidgetToHUD(APlayerController PlayerController, TSubclassOf<UWidgetScore> WidgetClass)
+void AddScoreWidgetToHUD(APlayerController PlayerController, TSubclassOf<UWidgetScore> WidgetClass)
 {
-    Print("Add to HUD called",5);
     UUserWidget UserWidget = WidgetBlueprint::CreateWidget(WidgetClass, PlayerController);
     UserWidget.AddToViewport();
 }

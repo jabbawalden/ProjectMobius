@@ -136,7 +136,7 @@ class AObstacle : AActor
     void MatchGlobalSpeed()
     {
         // Print("Delegate bind called for objects", 5);
-        //Print("Obstacle Match Global Speed Event Recieved", 5);
+        // Print("Obstacle Match Global Speed Event Recieved", 5);
         MovementSpeed = GameMode.GlobalMovementSpeed;
     }
 

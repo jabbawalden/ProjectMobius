@@ -1,5 +1,6 @@
 import UWidgetScore;
 import AMobiusGameMode;
+import UWidgetHealth;
 
 class AMainPlayer : APawn
 {
@@ -23,9 +24,9 @@ class AMainPlayer : APawn
     AActor ProjectileRef;
 
     UPROPERTY()
-    TSubclassOf<UWidgetScore> WidgetClass;
+    TSubclassOf<UWidgetScore> WidgetClassScore;
     UPROPERTY()
-    UWidgetScore MyScoreWidget;
+    TSubclassOf<UWidgetHealth> WidgetClassHealth;
 
     bool CanFire = false;
 
@@ -38,8 +39,8 @@ class AMainPlayer : APawn
     UPROPERTY()
     float MovementSpeed = 3000;
 
-    float MaxHealth = 3;
-    float Health;
+    int MaxHealth = 3;
+    int Health;
 
     UPROPERTY(DefaultComponent)
     UFloatingPawnMovement FloatingPawnMovement;
@@ -55,6 +56,7 @@ class AMainPlayer : APawn
     UCameraComponent MainCamera;
 
     bool IsAlive = true;
+    bool CannotMove = false;
 
     UFUNCTION(BlueprintOverride)
     void ConstructionScript()
@@ -72,7 +74,10 @@ class AMainPlayer : APawn
 
         PlayerInputSetup();
         APlayerController PlayerController = Gameplay::GetPlayerController(0);
-        AddWidgetToHUD(PlayerController, WidgetClass);
+
+        AddScoreWidgetToHUD(PlayerController, WidgetClassScore);
+        AddHealthWidgetToHUD(PlayerController, WidgetClassHealth);
+
     }
 
     UFUNCTION(BlueprintOverride)
@@ -91,7 +96,6 @@ class AMainPlayer : APawn
     UFUNCTION()
     void PlayerInputSetup()
     {
-        Print("Input set", 10);
         InputComp.BindAxis(n"MoveRight", FInputAxisHandlerDynamicSignature(this, n"MoveSides"));
         InputComp.BindAction(n"RestartLevel", EInputEvent::IE_Pressed, FInputActionHandlerDynamicSignature (this, n"CallRestartLevel"));
         InputComp.BindAction(n"FireGun", EInputEvent::IE_Pressed, FInputActionHandlerDynamicSignature(this, n"FireWeaponOn"));
@@ -103,7 +107,23 @@ class AMainPlayer : APawn
     {
         if(IsAlive) 
         {
-            AddMovementInput(ControlRotation.RightVector, AxisValue * MovementSpeed, true);
+            if (AxisValue < 0 && GetActorLocation().Y <= -920)
+            {
+                CannotMove = true;
+            }
+            else if (AxisValue > 0 && GetActorLocation().Y >= 920)
+            {
+                CannotMove = true;
+            }
+            else 
+            {
+                 CannotMove = false;
+            }
+
+            if (!CannotMove)
+            {
+                AddMovementInput(ControlRotation.RightVector, AxisValue * MovementSpeed, true);
+            }
         }
     }
 
