@@ -57,7 +57,7 @@ class AObstacle : AActor
     void Tick(float DeltaSeconds)
     {
         MoveLevel(DeltaSeconds);
-        if (GetActorLocation().X <= - 8500)
+        if (GetActorLocation().X <= - 10500)
         {
             DestroyActor();
         }

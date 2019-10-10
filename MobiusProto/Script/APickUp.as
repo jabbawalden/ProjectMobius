@@ -27,7 +27,6 @@ class APickUp : AActor
             GameMode.EventHaltSpeed.AddUFunction(this, n"MatchGlobalSpeed");
         }
         SphereComp.OnComponentBeginOverlap.AddUFunction(this, n"TriggerOnBeginOverlap");
-
     }
 
     UFUNCTION(BlueprintOverride)
@@ -36,7 +35,7 @@ class APickUp : AActor
         RotatePickUp(DeltaSeconds);
         MovePickUp(DeltaSeconds);
 
-        if (GetActorLocation().X <= - 8500)
+        if (GetActorLocation().X <= - 10500)
         {
             DestroyActor();
         }
