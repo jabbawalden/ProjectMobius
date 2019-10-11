@@ -913,3 +913,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.11-11.13.39:519][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000268 seconds (updated 0 objects)
 [2019.10.11-11.13.39:520][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2019.10.11-11.13.45:643][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.11-11.19.57:025][ 80]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
