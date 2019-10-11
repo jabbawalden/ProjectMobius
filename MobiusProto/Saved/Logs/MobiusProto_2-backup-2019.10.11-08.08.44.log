@@ -1,0 +1,1339 @@
+﻿Log file open, 10/11/19 10:08:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MobiusProto
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.082751
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Angelscript
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-0
+LogInit: Engine Version: 4.23.0-0+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-0+++UE4+Release-4.23
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Sep 21 2019 09:59:06
+LogInit: Compiled with Visual C++: 19.16.27027.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/john.walden/Desktop/UE_AngelScript/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.11-08.08.05:062][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.11-08.08.05:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:063][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:068][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.11-08.08.05:068][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.11-08.08.05:069][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.11-08.08.05:069][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.11-08.08.05:069][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.11-08.08.05:072][  0]LogHAL: Display: Platform has ~ 16 GB [17131020288 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.11-08.08.05:072][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.11-08.08.05:072][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.11-08.08.05:072][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.11-08.08.05:073][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal/ProjectMobius/MobiusProto/Saved/Config/Windows/Engine.ini]
+[2019.10.11-08.08.05:074][  0]LogInit: Computer: FG17AOR021
+[2019.10.11-08.08.05:074][  0]LogInit: User: johnwalden
+[2019.10.11-08.08.05:074][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.11-08.08.05:074][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.11-08.08.05:074][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.10.11-08.08.05:074][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.11-08.08.05:074][  0]LogMemory: Process Physical Memory: 101.45 MB used, 101.46 MB peak
+[2019.10.11-08.08.05:074][  0]LogMemory: Process Virtual Memory: 100.37 MB used, 100.37 MB peak
+[2019.10.11-08.08.05:074][  0]LogMemory: Physical Memory: 6279.81 MB used,  10057.60 MB free, 16337.41 MB total
+[2019.10.11-08.08.05:074][  0]LogMemory: Virtual Memory: 4656.00 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.10.11-08.08.05:077][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.11-08.08.05:103][  0]LogInit: Using OS detected language (en-US).
+[2019.10.11-08.08.05:103][  0]LogInit: Using OS detected locale (en-SE).
+[2019.10.11-08.08.05:103][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.11-08.08.05:338][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.11-08.08.05:369][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.11-08.08.05:369][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.11-08.08.05:528][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.11-08.08.05:528][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.11-08.08.05:578][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2019.10.11-08.08.05:578][  0]LogD3D11RHI:       2997/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.11-08.08.05:581][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.11-08.08.05:581][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.11-08.08.05:581][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.11-08.08.05:588][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.11-08.08.05:588][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.11-08.08.05:588][  0]LogWindows: EnumDisplayDevices:
+[2019.10.11-08.08.05:588][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2019.10.11-08.08.05:588][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2019.10.11-08.08.05:589][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.10.11-08.08.05:589][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.10.11-08.08.05:589][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.10.11-08.08.05:589][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2019.10.11-08.08.05:589][  0]LogD3D11RHI:   Driver Version: 388.46 (internal:23.21.13.8846, unified:388.46)
+[2019.10.11-08.08.05:589][  0]LogD3D11RHI:      Driver Date: 11-29-2017
+[2019.10.11-08.08.05:589][  0]LogRHI: Texture pool is 2097 MB (70% of 2997 MB)
+[2019.10.11-08.08.05:622][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.11-08.08.05:699][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.11-08.08.06:048][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.11-08.08.06:057][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.11-08.08.06:066][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.11-08.08.06:076][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.11-08.08.06:086][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.11-08.08.06:095][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.11-08.08.06:106][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.11-08.08.06:117][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.11-08.08.06:122][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.11-08.08.06:161][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.11-08.08.06:161][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.11-08.08.06:161][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.11-08.08.06:161][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.11-08.08.06:161][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.11-08.08.06:161][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.11-08.08.06:162][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.11-08.08.06:164][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.11-08.08.06:191][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.11-08.08.06:191][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.11-08.08.06:205][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.11-08.08.06:205][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.11-08.08.06:230][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.11-08.08.06:230][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.11-08.08.06:230][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.11-08.08.06:240][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.11-08.08.06:302][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (D:/Unreal/ProjectMobius/MobiusProto/Intermediate/Shaders/WorkingDirectory/1384/).
+[2019.10.11-08.08.06:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/john.walden/AppData/Local/Temp/UnrealShaderWorkingDir/60C9076E4B1957F158A2F9B0B5909447/'.
+[2019.10.11-08.08.06:306][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.11-08.08.06:306][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.11-08.08.06:306][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.11-08.08.06:985][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.11-08.08.07:042][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB D:/Unreal/ProjectMobius/MobiusProto/DerivedDataCache/Boot.ddc.
+[2019.10.11-08.08.07:042][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Unreal/ProjectMobius/MobiusProto/DerivedDataCache/Boot.ddc
+[2019.10.11-08.08.07:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal/ProjectMobius/MobiusProto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.11-08.08.07:043][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.11-08.08.07:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.11-08.08.07:043][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.10.11-08.08.07:044][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.10.11-08.08.07:044][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.11-08.08.07:044][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.11-08.08.07:067][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.11-08.08.07:070][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.11-08.08.07:070][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.11-08.08.07:127][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2019.10.11-08.08.07:403][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.11-08.08.07:569][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.11-08.08.07:569][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.11-08.08.07:569][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.11-08.08.07:569][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.11-08.08.07:569][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.11-08.08.07:579][  0]LogNetVersion: MobiusProto 1.0.0, NetCL: 0, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1500229892)
+[2019.10.11-08.08.08:019][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.042675 seconds
+[2019.10.11-08.08.08:026][  0]LogUObjectArray: 43430 objects as part of root set at end of initial load.
+[2019.10.11-08.08.08:026][  0]LogUObjectAllocator: 7928176 out of 0 bytes used by permanent object pool.
+[2019.10.11-08.08.08:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.11-08.08.08:984][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.11-08.08.08:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.11-08.08.09:048][  0]SourceControl: Source control is disabled
+[2019.10.11-08.08.09:048][  0]SourceControl: Source control is disabled
+[2019.10.11-08.08.09:050][  0]SourceControl: Source control is disabled
+[2019.10.11-08.08.09:051][  0]SourceControl: Source control is disabled
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_tab_Plugins_16x.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_tab_Plugins_16x.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/SmallArrowRight.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/SmallArrowRight.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/alert.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/alert.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_plugins_builtin_20x.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_plugins_builtin_20x.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_plugins_installed_20x.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_plugins_installed_20x.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/hiererchy_16x.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/hiererchy_16x.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/FolderOpen.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/FolderOpen.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/FolderClosed.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/FolderClosed.png
+[2019.10.11-08.08.09:076][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_plugins_betawarn_14px.png' error.
+[2019.10.11-08.08.09:076][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/icon_plugins_betawarn_14px.png
+[2019.10.11-08.08.09:077][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Editor/PluginBrowser/Content/AppTabContentArea.png' error.
+[2019.10.11-08.08.09:077][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Editor/PluginBrowser/Content/AppTabContentArea.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithCADImporterIcon40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithVREDImporter40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png
+[2019.10.11-08.08.09:083][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png' error.
+[2019.10.11-08.08.09:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/DatasmithDeltaGenImporter40.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/SaveScene.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/IconOptions.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/IconOptions.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/BuildWorld.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/ExecutePipeline.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png
+[2019.10.11-08.08.09:084][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png' error.
+[2019.10.11-08.08.09:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Enterprise/DatasmithContent/Resources/Icons/Jacketing.png
+[2019.10.11-08.08.09:133][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.11-08.08.09:291][  0]LogOcInput: OculusInput pre-init called
+[2019.10.11-08.08.09:299][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.11-08.08.09:299][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.11-08.08.09:311][  0]Angelscript: Angelscript debug server listening on 0.0.0.0:27099
+[2019.10.11-08.08.09:387][  0]Angelscript: delegate declarations took 11.212 ms
+[2019.10.11-08.08.09:575][  0]Angelscript: delegate bindings took 12.913 ms
+[2019.10.11-08.08.09:951][  0]Angelscript: blueprinttype bindings took 306.422 ms
+[2019.10.11-08.08.09:991][  0]Angelscript: == bindings total == took 680.219 ms
+[2019.10.11-08.08.09:992][  0]Angelscript: load precompiled data took 0.043 ms
+[2019.10.11-08.08.09:996][  0]Angelscript: preprocessing took 2.857 ms
+[2019.10.11-08.08.10:044][  0]Angelscript: script compilation took 47.686 ms
+[2019.10.11-08.08.10:045][  0]Angelscript: class generator analysis took 1.106 ms
+[2019.10.11-08.08.10:047][  0]Angelscript: class generator reload took 2.308 ms
+[2019.10.11-08.08.10:047][  0]Angelscript: new class propagation took 0.039 ms
+[2019.10.11-08.08.10:047][  0]Angelscript: post full reload took 0.062 ms
+[2019.10.11-08.08.10:047][  0]Angelscript: old module cleanup took 0.000 ms
+[2019.10.11-08.08.10:047][  0]Angelscript: update global function cache took 0.017 ms
+[2019.10.11-08.08.10:047][  0]Angelscript: resolve declared imports took 0.007 ms
+[2019.10.11-08.08.10:114][  0]LogEngine: Initializing Engine...
+[2019.10.11-08.08.10:115][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.11-08.08.10:116][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.11-08.08.10:397][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.11-08.08.10:418][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.11-08.08.10:440][  0]LogInit: XAudio2 using 'ASUS VS247-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.11-08.08.10:468][  0]LogInit: FAudioDevice initialized.
+[2019.10.11-08.08.10:468][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.11-08.08.10:740][  0]LogDerivedDataCache: Saved boot cache 0.27s 73MB D:/Unreal/ProjectMobius/MobiusProto/DerivedDataCache/Boot.ddc.
+[2019.10.11-08.08.10:751][  0]LogInit: Texture streaming: Enabled
+[2019.10.11-08.08.10:786][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.11-08.08.10:848][  0]LogInit: Transaction tracking system initialized
+[2019.10.11-08.08.10:891][  0]BlueprintLog: New page: Editor Load
+[2019.10.11-08.08.11:003][  0]LocalizationService: Localization service is disabled
+[2019.10.11-08.08.11:252][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/ProjectMobius/MobiusProto/Content/' took 0.00s
+[2019.10.11-08.08.11:252][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.11-08.08.11:252][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.11-08.08.11:253][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_TileMapEdModeIcon_40x.png' error.
+[2019.10.11-08.08.11:253][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_TileMapEdModeIcon_40x.png
+[2019.10.11-08.08.11:253][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCW_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCW_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCW_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCW_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCCW_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCCW_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCCW_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_RotateCCW_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorHorizontal_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorHorizontal_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorHorizontal_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorHorizontal_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorVertical_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorVertical_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorVertical_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_MirrorVertical_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBrush_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBrush_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBrush_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBrush_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_Eraser_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_Eraser_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_Eraser_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_Eraser_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBucket_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBucket_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBucket_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_PaintBucket_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeDropper_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeDropper_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeDropper_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeDropper_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TerrainPaint_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TerrainPaint_40x.png
+[2019.10.11-08.08.11:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TerrainPaint_40x.png' error.
+[2019.10.11-08.08.11:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TerrainPaint_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerAbove_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerAbove_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerAbove_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerAbove_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerBelow_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerBelow_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerBelow_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_AddNewLayerBelow_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DeleteLayer_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DeleteLayer_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DeleteLayer_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DeleteLayer_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DuplicateLayer_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DuplicateLayer_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DuplicateLayer_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_DuplicateLayer_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MergeLayerDown_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MergeLayerDown_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MergeLayerDown_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MergeLayerDown_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerUp_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerUp_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerUp_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerUp_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerDown_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerDown_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerDown_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_TileMapEditor_MoveLayerDown_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeClosed_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeClosed_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeOpened_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_EyeOpened_40x.png
+[2019.10.11-08.08.11:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowTileGrid_40x.png' error.
+[2019.10.11-08.08.11:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowTileGrid_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowTileGrid_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowTileGrid_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowLayerGrid_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowLayerGrid_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowLayerGrid_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowLayerGrid_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowStats_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowStats_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowStats_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileMapEditor/icon_ShowStats_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowStats_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowStats_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowStats_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowStats_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithCollision_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithCollision_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithCollision_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithCollision_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithMetadata_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithMetadata_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithMetadata_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_ShowTilesWithMetadata_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_TileSet_Refresh_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_TileSet_Refresh_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_TileSet_Refresh_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_TileSet_Refresh_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_AlternateView_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_AlternateView_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_AlternateView_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/TileSetEditor/icon_AlternateView_40x.png
+[2019.10.11-08.08.11:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_ShowSpriteSheetButton_40x.png' error.
+[2019.10.11-08.08.11:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_ShowSpriteSheetButton_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_ShowSpriteSheetButton_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_ShowSpriteSheetButton_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ExtractSprites_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ExtractSprites_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ExtractSprites_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ExtractSprites_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowOtherSprites_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowOtherSprites_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowOtherSprites_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowOtherSprites_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowSpriteNames_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowSpriteNames_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowSpriteNames_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/SpriteEditor/icon_ShowSpriteNames_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_ViewSprite_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_ViewSprite_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_ViewSprite_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_ViewSprite_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditCollision_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditCollision_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditCollision_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditCollision_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditSourceRegion_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditSourceRegion_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditSourceRegion_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_EditSourceRegion_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_RenderGeom_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_RenderGeom_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_RenderGeom_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_RenderGeom_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddBoxShape_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddBoxShape_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddBoxShape_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddBoxShape_40x.png
+[2019.10.11-08.08.11:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddCircleShape_40x.png' error.
+[2019.10.11-08.08.11:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddCircleShape_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddCircleShape_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddCircleShape_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddPolygon_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddPolygon_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddPolygon_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_AddPolygon_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_SnapToPixelGrid_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_SnapToPixelGrid_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_SnapToPixelGrid_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Paper2D_SnapToPixelGrid_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/FlipbookEditor/icon_Flipbook_AddKey_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/FlipbookEditor/icon_Flipbook_AddKey_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/FlipbookEditor/icon_Flipbook_AddKey_40x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/FlipbookEditor/icon_Flipbook_AddKey_40x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_CreateSprite_16x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_CreateSprite_16x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_ExtractSprites_16x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_ExtractSprites_16x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_ConfigureForRetroSprites_16x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_ConfigureForRetroSprites_16x.png
+[2019.10.11-08.08.11:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_CreateTileSet_16x.png' error.
+[2019.10.11-08.08.11:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/2D/Paper2D/Content/Icons/icon_Texture_CreateTileSet_16x.png
+[2019.10.11-08.08.11:291][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_16x.png' error.
+[2019.10.11-08.08.11:291][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_16x.png
+[2019.10.11-08.08.11:291][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_64x.png' error.
+[2019.10.11-08.08.11:291][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_64x.png
+[2019.10.11-08.08.11:292][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_16x.png' error.
+[2019.10.11-08.08.11:292][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_16x.png
+[2019.10.11-08.08.11:292][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_64x.png' error.
+[2019.10.11-08.08.11:292][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaCompositing/Resources/Icons/MediaPlane_64x.png
+[2019.10.11-08.08.11:300][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_source_12x.png' error.
+[2019.10.11-08.08.11:300][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_source_12x.png
+[2019.10.11-08.08.11:300][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_go_12x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_go_12x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_reload_12x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_reload_12x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_settings_16x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/btn_settings_16x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/border_dragdrop.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/border_dragdrop.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/mediasource_opened.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/mediasource_opened.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_info_16x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_info_16x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_media_16x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_media_16x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_player_16x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_player_16x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_playlist_16x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_playlist_16x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_stats_16x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/tab_stats_16x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_eject_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_eject_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_forward_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_forward_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_forward_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_forward_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_pause_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_pause_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_pause_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_pause_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_play_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_play_40x.png
+[2019.10.11-08.08.11:301][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_play_40x.png' error.
+[2019.10.11-08.08.11:301][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_play_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_back_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_back_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_back_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_step_back_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_reverse_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_reverse_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_reverse_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_reverse_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_rewind_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_rewind_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_rewind_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_rewind_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_stop_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_stop_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_stop_40x.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/icon_stop_40x.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/scrubber.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/scrubber.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/scrubber.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/scrubber.png
+[2019.10.11-08.08.11:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Media/MediaPlayerEditor/Content/scrubber.png' error.
+[2019.10.11-08.08.11:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Media/MediaPlayerEditor/Content/scrubber.png
+[2019.10.11-08.08.11:310][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/ActorSequence/Content/ActorSequence_16x.png' error.
+[2019.10.11-08.08.11:310][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/ActorSequence/Content/ActorSequence_16x.png
+[2019.10.11-08.08.11:310][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/ActorSequence/Content/ActorSequence_16x.png' error.
+[2019.10.11-08.08.11:310][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/ActorSequence/Content/ActorSequence_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/icon_tab_sequencer_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/icon_tab_sequencer_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/Icon_Actor_To_Sequencer_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/Icon_Actor_To_Sequencer_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/Icon_Actor_To_Sequencer_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/Icon_Actor_To_Sequencer_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewLevelSequenceInLevel_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewLevelSequenceInLevel_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewLevelSequenceInLevel_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewLevelSequenceInLevel_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewMasterSequenceInLevel_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewMasterSequenceInLevel_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewMasterSequenceInLevel_16x.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CreateNewMasterSequenceInLevel_16x.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportPlayMarker.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportPlayMarker.png
+[2019.10.11-08.08.11:314][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportRangeStart.png' error.
+[2019.10.11-08.08.11:314][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportRangeStart.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportRangeEnd.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportRangeEnd.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportTransportRangeKey.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/CinematicViewportTransportRangeKey.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/DefaultFilmOverlayThumbnail.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/DefaultFilmOverlayThumbnail.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.Disabled.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.Disabled.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.2x2Grid.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.2x2Grid.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.3x3Grid.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.3x3Grid.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.Crosshair.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.Crosshair.png
+[2019.10.11-08.08.11:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.Rabatment.png' error.
+[2019.10.11-08.08.11:315][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Content/FilmOverlay.Rabatment.png
+[2019.10.11-08.08.11:440][  0]SourceControl: Source control is disabled
+[2019.10.11-08.08.11:441][  0]Cmd: MAP LOAD FILE="D:/Unreal/ProjectMobius/MobiusProto/Content/MAPS/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.11-08.08.11:441][  0]LightingResults: New page: Lighting Build
+[2019.10.11-08.08.11:445][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.11:445][  0]MapCheck: New page: Map Check
+[2019.10.11-08.08.11:445][  0]LightingResults: New page: Lighting Build
+[2019.10.11-08.08.11:472][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.10.11-08.08.11:545][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:545][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:545][  0]LogLinker: Warning: Unable to load Default__BP_PlayerCamera_C with outer Package /Game/BLUEPRINTS/BP_PlayerCamera because its class does not exist
+[2019.10.11-08.08.11:545][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:546][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:571][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:572][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:576][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:577][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.11:634][  0]LogAIModule: Creating AISystem for world MainMap
+[2019.10.11-08.08.11:640][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.11-08.08.11:667][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.10.11-08.08.11:667][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.11-08.08.11:667][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2019.10.11-08.08.11:667][  0]LogFileHelpers: Loading map 'MainMap' took 0.227
+[2019.10.11-08.08.11:817][  0]Angelscript: Received angelscript debug connection from 127.0.0.1:52995
+[2019.10.11-08.08.11:817][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-08.08.11:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-08.08.11:831][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-08.08.11:839][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-08.08.11:847][  0]LogCollectionManager: Loaded 0 collections in 0.002395 seconds
+[2019.10.11-08.08.11:855][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/ProjectMobius/MobiusProto/Saved/Collections/' took 0.00s
+[2019.10.11-08.08.11:855][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/ProjectMobius/MobiusProto/Content/Developers/johnwalden/Collections/' took 0.00s
+[2019.10.11-08.08.11:855][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/ProjectMobius/MobiusProto/Content/Collections/' took 0.00s
+[2019.10.11-08.08.11:855][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.11-08.08.11:865][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2888 classes and 692 folders.
+[2019.10.11-08.08.11:875][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.11-08.08.11:910][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.11-08.08.11:918][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.11-08.08.12:176][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.11-08.08.12:178][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.11-08.08.12:183][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.11-08.08.12:246][  0]LogRenderer: Reallocating scene render targets to support 1156x612 Format 10 NumSamples 1 (Frame:1).
+[2019.10.11-08.08.12:332][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.11-08.08.12:332][  0]LogLoad: (Engine Initialization) Total time: 7.75 seconds
+[2019.10.11-08.08.12:332][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.11-08.08.12:347][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CameraComponent': BP_PlayerCamera_C /Game/BLUEPRINTS/BP_PlayerCamera.Default__BP_PlayerCamera_C
+[2019.10.11-08.08.12:348][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.12:348][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComponent': BP_PlayerCamera_C /Game/BLUEPRINTS/BP_PlayerCamera.Default__BP_PlayerCamera_C
+[2019.10.11-08.08.12:348][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C
+[2019.10.11-08.08.12:348][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/BLUEPRINTS/BP_PlayerCamera.BP_PlayerCamera_C:SimpleConstructionScript_0
+[2019.10.11-08.08.12:349][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CameraComponent': BP_PlayerCamera_C /Game/MAPS/MainMap.MainMap:PersistentLevel.BP_PlayerCamera_2
+[2019.10.11-08.08.12:349][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComponent': BP_PlayerCamera_C /Game/MAPS/MainMap.MainMap:PersistentLevel.BP_PlayerCamera_2
+[2019.10.11-08.08.12:390][  0]LogAssetRegistry: Asset discovery search completed in 5.2647 seconds
+[2019.10.11-08.08.12:394][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.10.11-08.08.12:394][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2019.10.11-08.08.12:395][  0]Angelscript: Added angelscript debug client from FTcpListener client
+[2019.10.11-08.08.12:397][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.11-08.08.12:405][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.11-08.08.12:443][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.11-08.08.15:757][183]LogSlate: Window 'Message Log' being destroyed
+[2019.10.11-08.08.15:761][183]LogSlate: Window 'Message Log' being destroyed
+[2019.10.11-08.08.29:303][394]Angelscript: Hot reloading angelscript file APlayerCamera.as.
+[2019.10.11-08.08.29:308][394]Angelscript: Hot reloading angelscript file AMainPlayer.as.
+[2019.10.11-08.08.29:309][394]Angelscript: Hot reloading angelscript file AHealingItem.as.
+[2019.10.11-08.08.29:309][394]Angelscript: Hot reloading angelscript file AObstacle.as.
+[2019.10.11-08.08.29:309][394]Angelscript: Hot reloading angelscript file ALevelGeneratorOLD.as.
+[2019.10.11-08.08.29:309][394]Angelscript: Hot reloading angelscript file ALevelGeneratorV2.as.
+[2019.10.11-08.08.29:309][394]Angelscript: Hot reloading angelscript file AProjectile.as.
+[2019.10.11-08.08.29:310][394]Angelscript: Hot reloading angelscript file APickUp.as.
+[2019.10.11-08.08.29:312][394]Angelscript: preprocessing took 2.246 ms
+[2019.10.11-08.08.29:319][394]Angelscript: D:/Unreal/ProjectMobius/MobiusProto/Script/AMainPlayer.as:
+[2019.10.11-08.08.29:319][394]Angelscript:  (83:5): Compiling void AMainPlayer::BeginPlay_Implementation()
+[2019.10.11-08.08.29:319][394]Angelscript: Error: D:/Unreal/ProjectMobius/MobiusProto/Script/AMainPlayer.as:
+[2019.10.11-08.08.29:319][394]Angelscript: Error:  (91:22): No matching signatures to 'APlayerCamera::SetGameModeReference()'
+[2019.10.11-08.08.29:321][394]Angelscript: script compilation took 8.945 ms
+[2019.10.11-08.08.29:321][394]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2019.10.11-08.08.29:322][394]Angelscript: ==script reload total == took 19.814 ms
+[2019.10.11-08.08.36:050][414]Angelscript: Hot reloading angelscript file AMainPlayer.as.
+[2019.10.11-08.08.36:056][414]Angelscript: Hot reloading angelscript file AHealingItem.as.
+[2019.10.11-08.08.36:057][414]Angelscript: Hot reloading angelscript file AObstacle.as.
+[2019.10.11-08.08.36:057][414]Angelscript: Hot reloading angelscript file ALevelGeneratorOLD.as.
+[2019.10.11-08.08.36:057][414]Angelscript: Hot reloading angelscript file ALevelGeneratorV2.as.
+[2019.10.11-08.08.36:057][414]Angelscript: Hot reloading angelscript file AProjectile.as.
+[2019.10.11-08.08.36:057][414]Angelscript: Hot reloading angelscript file APickUp.as.
+[2019.10.11-08.08.36:057][414]Angelscript: Hot reloading angelscript file APlayerCamera.as.
+[2019.10.11-08.08.36:060][414]Angelscript: preprocessing took 2.095 ms
+[2019.10.11-08.08.36:086][414]Angelscript: script compilation took 26.497 ms
+[2019.10.11-08.08.36:087][414]Angelscript: class generator analysis took 0.977 ms
+[2019.10.11-08.08.36:088][414]Angelscript: Full Reload: APlayerCamera
+[2019.10.11-08.08.36:088][414]Angelscript: Full Reload: AMainPlayer
+[2019.10.11-08.08.36:089][414]Angelscript: Soft Reload: AHealingitem
+[2019.10.11-08.08.36:089][414]Angelscript: Soft Reload: AObstacle
+[2019.10.11-08.08.36:089][414]Angelscript: Soft Reload: ALevelGeneratorOLD
+[2019.10.11-08.08.36:090][414]Angelscript: Soft Reload: ALevelGeneratorV2
+[2019.10.11-08.08.36:090][414]Angelscript: Soft Reload: AProjectile
+[2019.10.11-08.08.36:090][414]Angelscript: Soft Reload: APickUp
+[2019.10.11-08.08.36:091][414]Angelscript: class generator reload took 2.859 ms
+[2019.10.11-08.08.36:095][414]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.11-08.08.36:195][414]LogHotReload: Re-instancing PlayerCamera after hot-reload.
+[2019.10.11-08.08.36:199][414]LogHotReload: Re-instancing MainPlayer after hot-reload.
+[2019.10.11-08.08.36:204][414]LogTemp: Warning: Requested an object that wasn't in the refencer cache while a referencer cache was existing.
+[2019.10.11-08.08.36:291][414]Angelscript: unreal hot reload took 185.238 ms
+[2019.10.11-08.08.36:620][414]Angelscript: new class propagation took 327.567 ms
+[2019.10.11-08.08.36:621][414]Angelscript: post full reload took 514.688 ms
+[2019.10.11-08.08.36:634][414]Angelscript: old module cleanup took 1.683 ms
+[2019.10.11-08.08.36:634][414]Angelscript: update global function cache took 0.021 ms
+[2019.10.11-08.08.36:634][414]Angelscript: resolve declared imports took 0.028 ms
+[2019.10.11-08.08.36:645][414]Angelscript: ==script reload total == took 595.012 ms
+[2019.10.11-08.08.38:128][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.11-08.08.41:571][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.10.11-08.08.41:653][775]LogSlate: Window 'MobiusProto - Unreal Editor' being destroyed
+[2019.10.11-08.08.41:654][775]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.11-08.08.41:795][776]Cmd: QUIT_EDITOR
+[2019.10.11-08.08.41:843][776]LogExit: Preparing to exit.
+[2019.10.11-08.08.42:017][776]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:019][776]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:020][776]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:022][776]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:023][776]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:024][776]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:026][776]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:043][776]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.10.11-08.08.42:051][776]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-08.08.42:051][776]LogExit: Editor shut down
+[2019.10.11-08.08.42:051][776]LogExit: Transaction tracking system shut down
+[2019.10.11-08.08.42:280][776]LogExit: Object subsystem successfully closed.
+[2019.10.11-08.08.42:298][776]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.11-08.08.42:321][776]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
+[2019.10.11-08.08.42:321][776]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (666)
+[2019.10.11-08.08.42:321][776]LogModuleManager: Shutting down and abandoning module SceneOutliner (664)
+[2019.10.11-08.08.42:321][776]LogModuleManager: Shutting down and abandoning module AddContentDialog (662)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module WidgetCarousel (661)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module EditorWidgets (658)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module CollectionManager (656)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module StatsViewer (654)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (652)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module FoliageEdit (650)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module LandscapeEditor (648)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module MeshPaintMode (646)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (644)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module ActorPickerMode (642)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module GeometryMode (640)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module TextureAlignMode (638)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module BspMode (636)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (634)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (632)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module AutomationWorker (630)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module OculusMR (628)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (626)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (624)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (622)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module PlacementMode (621)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module MaterialEditor (620)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (616)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (614)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (612)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (610)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (608)
+[2019.10.11-08.08.42:322][776]LogModuleManager: Shutting down and abandoning module WebMMedia (606)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (604)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (602)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module SequenceRecorder (601)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (598)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (596)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (594)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (592)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (590)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (588)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (586)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (584)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (582)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (580)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (578)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module CharacterAI (576)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module SmartSnapping (574)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module SessionServices (572)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module MeshPaint (570)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module ViewportSnapping (568)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module ViewportInteraction (566)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module ClothPainter (564)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (563)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module LogVisualizer (560)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module IntroTutorials (558)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (557)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (554)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (552)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (550)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (548)
+[2019.10.11-08.08.42:323][776]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (547)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (544)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (542)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (540)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (538)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (536)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module InputBindingEditor (534)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module MergeActors (532)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (530)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module LocalizationService (529)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module HardwareTargeting (526)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (524)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module UndoHistory (522)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module XmlParser (520)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module Blutility (518)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (516)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (515)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (512)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module SettingsEditor (510)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module ProjectLauncher (508)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module SessionFrontend (506)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module ProfilerClient (504)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module DeviceManager (502)
+[2019.10.11-08.08.43:069][776]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (501)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module AutomationController (498)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module AutomationWindow (496)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module Layers (494)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (492)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module DetailCustomizations (490)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module PackagesDialog (488)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (486)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module Persona (484)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (483)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module AnimGraph (481)
+[2019.10.11-08.08.43:133][776]LogModuleManager: Shutting down and abandoning module Kismet (478)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module KismetWidgets (477)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module GraphEditor (474)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module StructViewer (472)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module ClassViewer (470)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module Toolbox (468)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module DesktopPlatform (467)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module ModuleUI (464)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module MovieSceneTools (462)
+[2019.10.11-08.08.43:135][776]LogModuleManager: Shutting down and abandoning module OutputLog (460)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module GammaUI (458)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module Documentation (456)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module LiveCoding (454)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module LevelSequence (452)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (450)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module MovieScene (448)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (446)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module LauncherPlatform (444)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module AnalyticsET (442)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module PortalServices (440)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module PortalRpc (438)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module MessagingRpc (436)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module AIModule (434)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module GameplayDebugger (433)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module AITestSuite (431)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module NavigationSystem (429)
+[2019.10.11-08.08.43:136][776]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (426)
+[2019.10.11-08.08.43:139][776]LogModuleManager: Shutting down and abandoning module ProfilerService (424)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module TaskGraph (422)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module AngelscriptLoader (420)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module AngelscriptEditor (418)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module AngelscriptCode (416)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module ScreenshotTools (414)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module SteamVRController (412)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (410)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (408)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module OculusEditor (406)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module OculusInput (404)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (402)
+[2019.10.11-08.08.43:372][776]LogModuleManager: Shutting down and abandoning module EditableMesh (400)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (398)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module CableComponent (396)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AudioCapture (394)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (392)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (390)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AppleImageUtils (388)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AndroidPermission (386)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (384)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (382)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module MediaCompositing (380)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module ImgMedia (378)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (376)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (374)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (372)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module HTML5Networking (370)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (368)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (366)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module BackChannel (364)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (362)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AutomationUtils (360)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AlembicImporter (358)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module AlembicLibrary (357)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module GeometryCache (356)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (355)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module VariantManagerContent (350)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (346)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module PluginBrowser (344)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (342)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (340)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module CurveEditorTools (338)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module CurveEditor (337)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
+[2019.10.11-08.08.43:373][776]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module SourceControl (319)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (314)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (312)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (310)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module SignificanceManager (300)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module ActorSequence (290)
+[2019.10.11-08.08.43:374][776]LogModuleManager: Shutting down and abandoning module UdpMessaging (288)
+[2019.10.11-08.08.43:475][776]LogModuleManager: Shutting down and abandoning module TcpMessaging (286)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (284)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (282)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (280)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (278)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module MagicLeapController (276)
+[2019.10.11-08.08.43:576][776]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module MagicLeapAR (274)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module AugmentedReality (273)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module DataValidation (264)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2019.10.11-08.08.43:576][776]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
+[2019.10.11-08.08.43:577][776]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
+[2019.10.11-08.08.43:577][776]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
+[2019.10.11-08.08.43:577][776]LogModuleManager: Shutting down and abandoning module MainFrame (256)
+[2019.10.11-08.08.43:577][776]LogModuleManager: Shutting down and abandoning module HotReload (255)
+[2019.10.11-08.08.43:577][776]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
+[2019.10.11-08.08.43:578][776]LogModuleManager: Shutting down and abandoning module TreeMap (249)
+[2019.10.11-08.08.43:578][776]LogModuleManager: Shutting down and abandoning module AnimationSharing (246)
+[2019.10.11-08.08.43:578][776]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2019.10.11-08.08.43:578][776]LogModuleManager: Shutting down and abandoning module Paper2D (242)
+[2019.10.11-08.08.43:578][776]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (240)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (238)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (236)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module PacketHandler (234)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (232)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (230)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module MediaAssets (228)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module Overlay (226)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module OverlayEditor (225)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module VREditor (222)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module StringTableEditor (220)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (218)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (216)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module FunctionalTesting (214)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (212)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (211)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module UMG (208)
+[2019.10.11-08.08.43:580][776]LogModuleManager: Shutting down and abandoning module UMGEditor (207)
+[2019.10.11-08.08.43:581][776]LogModuleManager: Shutting down and abandoning module Sequencer (206)
+[2019.10.11-08.08.43:581][776]LogModuleManager: Shutting down and abandoning module MessageLog (203)
+[2019.10.11-08.08.43:581][776]LogModuleManager: Shutting down and abandoning module SlateReflector (198)
+[2019.10.11-08.08.43:581][776]LogModuleManager: Shutting down and abandoning module Slate (196)
+[2019.10.11-08.08.43:581][776]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (194)
+[2019.10.11-08.08.43:581][776]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module UnrealEd (190)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module Core (178)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
+[2019.10.11-08.08.43:582][776]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2019.10.11-08.08.44:080][776]LogDerivedDataCache: Shutdown
+[2019.10.11-08.08.44:080][776]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2019.10.11-08.08.44:080][776]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2019.10.11-08.08.44:081][776]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (121)
+[2019.10.11-08.08.44:082][776]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.10.11-08.08.44:082][776]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.10.11-08.08.44:082][776]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.10.11-08.08.44:083][776]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.10.11-08.08.44:083][776]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.10.11-08.08.44:089][776]LogHMD: Freeing OpenVRDLLHandle.
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.10.11-08.08.44:089][776]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.10.11-08.08.44:090][776]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.10.11-08.08.44:090][776]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.10.11-08.08.44:094][776]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.10.11-08.08.44:094][776]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.11-08.08.44:094][776]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9FE55C66-4978-D028-16D8-ABBDFA19436F%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.23.0-0%2B%2B%2BUE4%2BRelease-4.23&UserID=fd2bc9fc43807c348656cb89ebcc9d99%7Cccb48b301bbc497aa5c422652c5ddcc0%7C07b113c3-df12-4a6a-bbcb-38b60eb790f5&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2019.10.11-08.08.44:101][776]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.10.11-08.08.44:102][776]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.10.11-08.08.44:103][776]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.10.11-08.08.44:104][776]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.10.11-08.08.44:105][776]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.10.11-08.08.44:106][776]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.11-08.08.44:106][776]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.11-08.08.44:106][776]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.11-08.08.44:106][776]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.11-08.08.44:106][776]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.11-08.08.44:106][776]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.11-08.08.44:106][776]LogD3D11RHI: Shutdown
+[2019.10.11-08.08.44:106][776]LogD3D11RHI: CleanupD3DDevice
+[2019.10.11-08.08.44:106][776]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.11-08.08.44:106][776]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.11-08.08.44:106][776]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.11-08.08.44:245][776]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.11-08.08.44:250][776]LogExit: Exiting.
+[2019.10.11-08.08.44:262][776]Log file closed, 10/11/19 10:08:44

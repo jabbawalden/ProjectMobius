@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>34E4705741F9C8999121BBA1DE178931</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-1821F81C43801775E38069A6AA5AA55C_0000</CrashGUID>
+<ProcessId>5388</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>3120</SecondsSinceStart>
+<GameName>UE4-MobiusProto</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.23-CL-0-Win64-Development</Symbols>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Dirty</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.23.0-0+++UE4+Release-4.23</EngineVersion>
+<CommandLine> D:\Unreal\ProjectMobius\MobiusProto\MobiusProto.uproject</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en-SE</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.23-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Users/john.walden/Desktop/UE_AngelScript/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/john.walden/Desktop/UE_AngelScript/</RootDir>
+<MachineId>FD2BC9FC43807C348656CB89EBCC9D99</MachineId>
+<LoginId>fd2bc9fc43807c348656cb89ebcc9d99</LoginId>
+<EpicAccountId>ccb48b301bbc497aa5c422652c5ddcc0</EpicAccountId>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+UE4Editor-BlueprintGraph   0x0000000026900000 + 219ca1  
+UE4Editor-BlueprintGraph   0x0000000026900000 + 7b547   
+UE4Editor-BlueprintGraph   0x0000000026900000 + 78072   
+UE4Editor-BlueprintGraph   0x0000000026900000 + 77eeb   
+UE4Editor-Kismet           0x0000000024ec0000 + d368e   
+UE4Editor-Kismet           0x0000000024ec0000 + f6a48   
+UE4Editor-Kismet           0x0000000024ec0000 + d3cee   
+UE4Editor-Kismet           0x0000000024ec0000 + 333470  
+UE4Editor-Kismet           0x0000000024ec0000 + 36ac19  
+UE4Editor-GraphEditor      0x0000000025810000 + 1c669f  
+UE4Editor-GraphEditor      0x0000000025810000 + dc695   
+UE4Editor-Kismet           0x0000000024ec0000 + 31e408  
+UE4Editor-Kismet           0x0000000024ec0000 + 347236  
+UE4Editor-Kismet           0x0000000024ec0000 + 342f93  
+UE4Editor-Kismet           0x0000000024ec0000 + 31ccd7  
+UE4Editor-Kismet           0x0000000024ec0000 + 3434b0  
+UE4Editor-Kismet           0x0000000024ec0000 + 143541  
+UE4Editor-Kismet           0x0000000024ec0000 + 162f65  
+UE4Editor-Kismet           0x0000000024ec0000 + 15a53d  
+UE4Editor-Kismet           0x0000000024ec0000 + 187ffb  
+UE4Editor-UMGEditor        0x0000000018660000 + 168470  
+UE4Editor-UMGEditor        0x0000000018660000 + 19e7bb  
+UE4Editor-UnrealEd         0x0000000027900000 + b8f656  
+UE4Editor-UMGEditor        0x0000000018660000 + ad9ce   
+UE4Editor-ContentBrowser   0x0000000017110000 + 1b675a  
+UE4Editor-ContentBrowser   0x0000000017110000 + 173f69  
+UE4Editor-ContentBrowser   0x0000000017110000 + 1be94f  
+UE4Editor-ContentBrowser   0x0000000017110000 + 171b9a  
+UE4Editor-ContentBrowser   0x0000000017110000 + 16e410  
+UE4Editor-ContentBrowser   0x0000000017110000 + 1c8870  
+UE4Editor-ContentBrowser   0x0000000017110000 + 1becc1  
+UE4Editor-Slate            0x0000000029050000 + 147fa   
+UE4Editor-Slate            0x0000000029050000 + 9969e   
+UE4Editor-Slate            0x0000000029050000 + 844b9   
+UE4Editor-Slate            0x0000000029050000 + 79442   
+UE4Editor-ApplicationCore  0x0000000056a00000 + 24daf   
+UE4Editor-ApplicationCore  0x0000000056a00000 + 126df   
+UE4Editor-ApplicationCore  0x0000000056a00000 + 27340   
+UE4Editor-ApplicationCore  0x0000000056a00000 + edd0    
+USER32                     0x00000000697f0000 + 1681d   
+USER32                     0x00000000697f0000 + 16212   
+UE4Editor-ApplicationCore  0x0000000056a00000 + 288e9   
+UE4Editor                  0x000000001b160000 + 6980    
+UE4Editor                  0x000000001b160000 + 1a91c   
+UE4Editor                  0x000000001b160000 + 1a9fa   
+UE4Editor                  0x000000001b160000 + 2b92c   
+UE4Editor                  0x000000001b160000 + 2e60e   
+KERNEL32                   0x0000000068e60000 + 17bd4   
+ntdll                      0x000000006a220000 + 6cee1   
+</PCallStack>
+<PCallStackHash>F3565DBB86C3864121686CF5AC9B769F34D602E6</PCallStackHash>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;StandaloneToolkit : 3&quot; Label=&quot;WBP_Health&quot; Content=SNullWidgetContent</UserActivityHint>
+<ErrorMessage>Ensure condition failed: !bIsFilteredOut [File:D:/UnrealEngine-Angelscript/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 1725]
+Invalid BlueprintActionDatabase entry (for Healingitem_REPLACED_9). Was the database properly updated when this class was compiled?
+Stack: 
+0x00007ffb26b19ca1 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+0x00007ffb2697b547 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+0x00007ffb26978072 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+0x00007ffb26977eeb UE4Editor-BlueprintGraph.dll!UnknownFunction []
+0x00007ffb24f9368e UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb24fb6a48 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb24f93cee UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb251f3470 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb2522ac19 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb259d669f UE4Editor-GraphEditor.dll!UnknownFunction []
+0x00007ffb258ec695 UE4Editor-GraphEditor.dll!UnknownFunction []
+0x00007ffb251de408 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb25207236 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb25202f93 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb251dccd7 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb252034b0 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb25003541 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb25022f65 UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb2501a53d UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb25047ffb UE4Editor-Kismet.dll!UnknownFunction []
+0x00007ffb187c8470 UE4Editor-UMGEditor.dll!UnknownFunction []
+0x00007ffb187fe7bb UE4Editor-UMGEditor.dll!UnknownFunction []
+0x00007ffb2848f656 UE4Editor-UnrealEd.dll!UnknownFunction []
+0x00007ffb1870d9ce UE4Editor-UMGEditor.dll!UnknownFunction []
+0x00007ffb172c675a UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb17283f69 UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb172ce94f UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb17281b9a UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb1727e410 UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb172d8870 UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb172cecc1 UE4Editor-ContentBrowser.dll!UnknownFunction []
+0x00007ffb290647fa UE4Editor-Slate.dll!UnknownFunction []
+0x00007ffb290e969e UE4Editor-Slate.dll!UnknownFunction []
+0x00007ffb290d44b9 UE4Editor-Slate.dll!UnknownFunction []
+0x00007ffb290c9442 UE4Editor-Slate.dll!UnknownFunction []
+0x00007ffb56a24daf UE4Editor-ApplicationCore.dll!UnknownFunction []
+0x00007ffb56a126df UE4Editor-ApplicationCore.dll!UnknownFunction []
+0x00007ffb56a27340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+0x00007ffb56a0edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+0x00007ffb6980681d USER32.dll!UnknownFunction []
+0x00007ffb69806212 USER32.dll!UnknownFunction []
+0x00007ffb56a288e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+0x00007ff71b166980 UE4Editor.exe!UnknownFunction []
+0x00007ff71b17a91c UE4Editor.exe!UnknownFunction []
+0x00007ff71b17a9fa UE4Editor.exe!UnknownFunction []
+0x00007ff71b18b92c UE4Editor.exe!UnknownFunction []
+0x00007ff71b18e60e UE4Editor.exe!UnknownFunction []
+0x00007ffb68e77bd4 KERNEL32.DLL!UnknownFunction []
+0x00007ffb6a28cee1 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060 3GB</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 1903)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>17131020288</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>9217224704</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140728621903872</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>3100831744</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>3100835840</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3454349312</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3769765888</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1060 3GB</RHI.AdapterName>
+<RHI.UserDriverVersion>388.46</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>23.21.13.8846</RHI.InternalDriverVersion>
+<RHI.DriverDate>11-29-2017</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+</EngineData>
+<GameData>
+</GameData>
+<EnabledPlugins>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Paper2D&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;AISupport&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.5&quot;,
+	&quot;FriendlyName&quot;: &quot;Angelscript&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;LightPropagationVolume&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Layer Utilities&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Animation Sharing&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CLion Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CodeLite Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 14,
+	&quot;VersionName&quot;: &quot;1.4&quot;,
+	&quot;FriendlyName&quot;: &quot;Git&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;KDevelop Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Linux Compiler-only Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Perforce&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Subversion&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;UObject Example Plugin&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Visual Studio Code Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Visual Studio Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;XCode Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Asset Manager Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CryptoKeys&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Curve Editor Tools&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Data Validation&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Facial Animation Bulk Importer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;GameplayTagsEditor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mac Graphics Switching&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Material Analyzer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Wizard for mobile packaging scenarios&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Plugin Browser&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SpeedTree Importer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Datasmith Content&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Variant Manager Content&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Alembic Importer (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Automation Utilities&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1&quot;,
+	&quot;FriendlyName&quot;: &quot;BackChannel&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;CharacterAI&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Geometry Cache (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Experimental WebSocket Networking Plugin&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Platform Cryptography Plugin&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Proxy LOD Plugin (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Skeletal Mesh Simplifier (Early Access)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Magic Leap&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Magic Leap Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;AVF Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Image Sequence Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Media Compositing&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Media Player Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;WebM Video Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;WMF Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;TCP Messaging&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;UDP Messaging&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Level Sequence Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Matinee to Level Sequence&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Netcode Unit Test&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Netcode Unit Test - Unreal Engine 4&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem GooglePlay&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem iOS&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem NULL&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem Utils&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Launcher Chunk Installer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Movie Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Runtime Permission&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Apple Image Utils&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Apple Movie Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;ArchVis Character&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Audio Capture&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Cable Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Editable Mesh&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Example Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Google Cloud Messaging&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;IOS Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Linux Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mobile Location Services Blueprints Library&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mobile Patching Utilities&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.36.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Oculus VR&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;PhysX Vehicles&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Runtime PhysX Cooking&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Significance Manager&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SteamVR&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Movie Player for WebM files&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Windows Movie Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;ScreenshotTools&quot;
+}</Plugin>
+</EnabledPlugins>
+</FGenericCrashContext>
