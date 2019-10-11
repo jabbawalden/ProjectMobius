@@ -69,10 +69,8 @@ class ALevelGeneratorV2 : AActor
     int XTargetCount;
     int XCurrentSpawnCount;
 
-    //Left to Right Rows
     UPROPERTY()
     TArray<float> ChosenYIndex;
-    //Forward Rows
     UPROPERTY()
     TArray<float> ChosenXIndex;
 
@@ -81,7 +79,6 @@ class ALevelGeneratorV2 : AActor
     UFUNCTION(BlueprintOverride)
     void BeginPlay() 
     {
-        // Print("Level Generated", 5);
         XMaxCount = 15;
         XMinCount = 10;
 
@@ -122,7 +119,6 @@ class ALevelGeneratorV2 : AActor
     {   
         FVector CurrentLoc = GetActorLocation();
         FVector NextLoc = CurrentLoc += FVector(-MovementSpeed * DeltaSeconds, 0, 0);
-        // Print("Level Loc is " + NextLoc, 5);
         SetActorLocation(NextLoc);
     }
 
@@ -148,7 +144,7 @@ class ALevelGeneratorV2 : AActor
                 Warning("Game Mode Null");
             }
         }
-        //GenerateObstacles();
+
     }
 
     
@@ -196,18 +192,11 @@ class ALevelGeneratorV2 : AActor
     UFUNCTION()
     void SelectSpawnLocations()
     {
-        //TO FIX - ENSURE THAT ROWS CANNOT EXCEED ROW 24
         XTargetCount = FMath::RandRange(XMinCount, XMaxCount);
-        
-        // Print("Location Point X = " + LocationPointX.Num(), 15);
 
         int RowDivision = LocationPointX.Num() / XTargetCount;
         int RowChosenIndex = -1;
         int RowAfterRandomized = 0;
-
-        // Print("XTargetCount = " + XTargetCount, 15);
-        // Print("Row Division Spaces = " + RowDivision, 15);
-        // Print(" " + RowDivision, 5);
 
         for (int i = 0; i < XTargetCount; i++)
         {
@@ -215,40 +204,17 @@ class ALevelGeneratorV2 : AActor
             {
                 RowChosenIndex += RowDivision;
 
-                if (i == RowAfterRandomized)
-                {
-
-                }
-                // else 
-                // {
-                //     int r = FMath::RandRange(0, 3);
-
-                //     if(r == 0)
-                //     {
-                //         RowChosenIndex += RowDivision;
-                //     }
-                //     else
-                //     {
-                //         RowChosenIndex += RowDivision + FMath::RandRange(-1, 1);
-                //         RowAfterRandomized = RowChosenIndex + 1;
-                //     }
-                // }
-            
-            ChosenXIndex.Add(RowChosenIndex);
-            
+                ChosenXIndex.Add(RowChosenIndex);
             }
             else 
             {
                 Print("We exceeded our row amount ", 5);
             }
 
-
         }
 
         int YPreviousLoc = 0;
         int YCurrentLoc = 0;
-
-        // Print("ChosenXIndex is this large: " + ChosenXIndex.Num(), 10);
 
         for (int y = 0; y < ChosenXIndex.Num(); y++)
         {
@@ -281,8 +247,6 @@ class ALevelGeneratorV2 : AActor
             for (int y = 0; y < LocationPointY.Num(); y++) 
             {
                 PointRepresent = SpawnActor(PointRepresentType, FVector(FVector(XLocation, LocationPointY[y], 150)));
-                //PointRepresent.AttachToActor(this); 
-                //PointRepresent.SetActorLocation(FVector(XLocation, LocationPointY[y], 150));
             }
 
             NumberOfSpawn++;
@@ -291,8 +255,6 @@ class ALevelGeneratorV2 : AActor
         for (int i = 0; i < ChosenXIndex.Num(); i++)
         {
             Obstacle = SpawnActor(ObstacleType, FVector(LocationPointX[ChosenXIndex[i]], LocationPointY[ChosenYIndex[i]] , 150));
-            //Obstacle.AttachToActor(this);
-            //Obstacle.SetActorLocation(FVector(LocationPointX[ChosenXIndex[i]], LocationPointY[ChosenYIndex[i]] , 150));
             ObstacleStateArray.Add(Obstacle); 
         }
 
