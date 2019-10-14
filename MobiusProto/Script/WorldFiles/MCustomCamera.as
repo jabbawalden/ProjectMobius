@@ -22,8 +22,9 @@ class ACustomCamera : ACameraActor
     {
         if (PlayerRef != nullptr)
         {
-            float YLerp = FMath::Lerp(GetActorLocation().Y, PlayerRef.GetActorLocation().Y, 0.1f);
-            YLerp *= 0.9f;
+            //float YLerp = FMath::FInterpTo(GetActorLocation().Y, PlayerRef.GetActorLocation().Y, DeltaSeconds, 15.0f);
+            float YLerp = FMath::Lerp(GetActorLocation().Y, PlayerRef.GetActorLocation().Y, 0.15f);
+            YLerp *= 0.93f;
             FVector StartLoc = FVector(PlayerRef.GetActorLocation().X + XOffset, YLerp, PlayerRef.GetActorLocation().Z + ZOffset);
             SetActorLocation(StartLoc);
         }

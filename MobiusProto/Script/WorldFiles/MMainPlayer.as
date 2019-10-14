@@ -54,12 +54,7 @@ class AMainPlayer : APawn
     bool IsAlive = true;
     bool CannotMove = false;
 
-    float Ypos1 = -888.0;
-    float Ypos2 = -288.0;
-    float Ypos3 = 312.0;
-    float Ypos4 = 912.0;
-
-    int CurrentYPosition = 2;
+    int CurrentYPosition = 0;
 
     float NewMoveTime = 0;
     float MoveRate = 0.235;
@@ -102,7 +97,7 @@ class AMainPlayer : APawn
         if (IsAlive)
         {
             HandleFiring();
-            HandleYMovement();
+            HandleYMovement(DeltaSeconds);
         }
     }
 
@@ -123,38 +118,18 @@ class AMainPlayer : APawn
     void PlayerInputSetup()
     {
         InputComp.BindAxis(n"MoveRight", FInputAxisHandlerDynamicSignature(this, n"MoveSides"));
+        InputComp.BindAxis(n"KeysSideMovement", FInputAxisHandlerDynamicSignature(this, n"MoveSides"));
         InputComp.BindAction(n"RestartLevel", EInputEvent::IE_Pressed, FInputActionHandlerDynamicSignature (this, n"CallRestartLevel"));
         InputComp.BindAction(n"FireGun", EInputEvent::IE_Pressed, FInputActionHandlerDynamicSignature(this, n"FireWeaponOn"));
         InputComp.BindAction(n"FireGun", EInputEvent::IE_Released, FInputActionHandlerDynamicSignature(this, n"FireWeaponOff"));
+        
     }
 
     UFUNCTION()
-    void HandleYMovement()
+    void HandleYMovement(float DeltaSeconds)
     {
         float CurrentYLoc = GetActorLocation().Y;
-        float NextYLoc = 0;
-
-        float CamYNewLoc = 0;
-        float NextCamYLocDivider = 0;
-
-        switch(CurrentYPosition)
-        {
-            case 1:
-                NextYLoc = Ypos1;
-                break;
-            case 2:
-                NextYLoc = Ypos2;
-                break;
-            case 3:
-                NextYLoc = Ypos3;
-                break;
-            case 4:
-                NextYLoc = Ypos4;
-                break;
-        }
-
-        float MovementValue = FMath::Lerp(CurrentYLoc, NextYLoc, 0.2f);
-
+        float MovementValue = FMath::FInterpTo(CurrentYLoc, CurrentYPosition * GameMode.YGridPosMultiplier, DeltaSeconds, 20.0f);
         SetActorLocation(FVector(GetActorLocation().X, MovementValue, GetActorLocation().Z));
     }
 
@@ -163,12 +138,12 @@ class AMainPlayer : APawn
     {
         if(IsAlive && AxisValue != 0 && NewMoveTime <= Gameplay::TimeSeconds) 
         {
-            if (AxisValue < 0 && CurrentYPosition > 1)
+            if (AxisValue < 0 && CurrentYPosition > -GameMode.YRowDirectionCount)
             {
                 NewMoveTime = Gameplay::TimeSeconds + MoveRate;
                 CurrentYPosition--;
             }
-            else if (AxisValue > 0 && CurrentYPosition < 4)
+            else if (AxisValue > 0 && CurrentYPosition < GameMode.YRowDirectionCount)
             {
                 NewMoveTime = Gameplay::TimeSeconds + MoveRate;
                 CurrentYPosition++;

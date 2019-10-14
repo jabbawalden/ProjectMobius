@@ -13,11 +13,11 @@ class ALevelGeneratorV2 : AActor
     UPROPERTY()
     AMobiusGameMode GameMode;
 
-    UPROPERTY(DefaultComponent, Attach = BoxCollision)
-    UStaticMeshComponent MeshComp;
-    default MeshComp.SetWorldScale3D(FVector(800, 25, 1));
-    // default MeshComp.StaticMesh = Asset("/Engine/BasicShapes/Cube.Cube");
-    default BoxCollision.SetBoxExtent(MeshComp.GetBoundingBoxExtents()); 
+    // UPROPERTY(DefaultComponent, Attach = BoxCollision)
+    // UStaticMeshComponent MeshComp;
+    // default MeshComp.SetWorldScale3D(FVector(800, 25, 1));
+    // // default MeshComp.StaticMesh = Asset("/Engine/BasicShapes/Cube.Cube");
+    // default BoxCollision.SetBoxExtent(MeshComp.GetBoundingBoxExtents()); 
 
     UPROPERTY(DefaultComponent, Attach = BoxCollision)
     UStaticMeshComponent SpawnLoc;
@@ -55,17 +55,22 @@ class ALevelGeneratorV2 : AActor
     UPROPERTY()
     float MovementSpeed = 3000; //AMobiusGameMode.GlobalMovementSpeed;
 
-    float PointReferenceX;
-    float PointReferenceY;
+    // float PointReferenceX;
+    // float PointReferenceY;
 
     UPROPERTY()
     int NumberOfSpawn;
 
-    float XPositionMultiplier = 100;
-    float YPositionMultiplier = 80;
+    // float XGridPosMultiplier = 600.0f;
+    // float YGridPosMultiplier = 850.0f;
+    // int XRows = 10.0f;
+    // int YRowDirectionCount = 2.0f; 
+    // float XPositionMultiplier = 100;
+    // float YPositionMultiplier = 80;
 
     int XMaxCount;
     int XMinCount;
+    UPROPERTY()
     int XTargetCount;
     int XCurrentSpawnCount;
 
@@ -91,12 +96,14 @@ class ALevelGeneratorV2 : AActor
             MovementSpeed = GameMode.GlobalMovementSpeed;
             GameMode.EventSpeedIncrease.AddUFunction(this, n"MatchGlobalSpeed");
             GameMode.EventHaltSpeed.AddUFunction(this, n"MatchGlobalSpeed");
+            SetTriggerScale();
             if (GameMode.HealthRef < GameMode.MaxHealthRef)
             {
                 Print("CAN GENERATE HEALING ITEMS", 5);
                 CanSpawnHealing = true;
             }
         }
+
         ConstructObstaclePositions();
         GenerateObstacles();
         SetObstacleType();
@@ -144,47 +151,40 @@ class ALevelGeneratorV2 : AActor
                 Warning("Game Mode Null");
             }
         }
-
     }
 
-    
+    UFUNCTION()
+    void SetTriggerScale()
+    {
+        float YMaxCount = GameMode.YMaxIndexCount + 1;
+        float YScale = YMaxCount * 6.0f;
+        SpawnTriggerComp.SetWorldScale3D(FVector(1, YScale, 1));
+    }
+
     UFUNCTION()
     void SpawnNextLevel() 
-    {
-        LevelGenerator = SpawnActor(LevelGeneratorType, SpawnLoc.GetWorldLocation()); 
+    { 
+        FVector SpawnLocationOffset =  FVector(GameMode.XRows * GameMode.XGridPosMultiplier,0,0) + this.GetActorLocation();  
+        LevelGenerator = SpawnActor(LevelGeneratorType, SpawnLocationOffset); 
     }
 
     UFUNCTION() 
     void ConstructObstaclePositions()
     {
-        PointReferenceX = MeshComp.GetWorldScale().X / 32;
-        PointReferenceY = MeshComp.GetWorldScale().Y / 6.25f;
+        float YOffset = GameMode.YRowDirectionCount * GameMode.YGridPosMultiplier;
+        float XPos = GetActorLocation().X; 
+        float YPos = GetActorLocation().Y - YOffset;
 
-        int AddAmountX = MeshComp.GetWorldScale().X / PointReferenceX;
-        int AddAmountY = MeshComp.GetWorldScale().Y / PointReferenceY;
-
-        float XPos = -AddAmountX * XPositionMultiplier;
-        float YPos = -AddAmountY * YPositionMultiplier * 3.1f;
-
-        if (GameMode.GameStarted)
+        for (int i = 0; i < GameMode.XRows; i++)
         {
-            XPos += MeshComp.GetWorldScale().X * 60;
-        }
-        else if (!GameMode.GameStarted)
-        {
-            GameMode.GameStarted = true;
-        }
-
-        for (int i = 0; i < PointReferenceX; i++)
-        {
-            XPos += AddAmountX * XPositionMultiplier;
             LocationPointX.Add(XPos);
+            XPos += GameMode.XGridPosMultiplier; 
         }
 
-        for (int i = 0; i < PointReferenceY; i++)
+        for (int i = -GameMode.YRowDirectionCount - 1; i < GameMode.YRowDirectionCount; i++)
         {
-            YPos += AddAmountY * XPositionMultiplier;
             LocationPointY.Add(YPos);
+            YPos += GameMode.YGridPosMultiplier;
         }
 
     }
@@ -193,24 +193,13 @@ class ALevelGeneratorV2 : AActor
     void SelectSpawnLocations()
     {
         XTargetCount = FMath::RandRange(XMinCount, XMaxCount);
-
-        int RowDivision = LocationPointX.Num() / XTargetCount;
-        int RowChosenIndex = -1;
-        int RowAfterRandomized = 0;
+        int RowIntervals = GameMode.XRows / XTargetCount;
+        int CurrentIndex = -1;
 
         for (int i = 0; i < XTargetCount; i++)
         {
-            if (i <= LocationPointX.Num()) 
-            {
-                RowChosenIndex += RowDivision;
-
-                ChosenXIndex.Add(RowChosenIndex);
-            }
-            else 
-            {
-                Print("We exceeded our row amount ", 5);
-            }
-
+            CurrentIndex += RowIntervals; 
+            ChosenXIndex.Add(CurrentIndex);
         }
 
         int YPreviousLoc = 0;
@@ -218,17 +207,14 @@ class ALevelGeneratorV2 : AActor
 
         for (int y = 0; y < ChosenXIndex.Num(); y++)
         {
-            YCurrentLoc = FMath::RandRange(0, 3);
-
-            if (YCurrentLoc == YPreviousLoc)
+            YCurrentLoc = FMath::RandRange(0, GameMode.YMaxIndexCount);
+            
+            while(YCurrentLoc == YPreviousLoc)
             {
-                YCurrentLoc = FMath::RandRange(0, 3);
-            }
-            else 
-            {
-                YPreviousLoc = YCurrentLoc;
+                YCurrentLoc = FMath::RandRange(0, GameMode.YMaxIndexCount);
             }
 
+            YPreviousLoc = YCurrentLoc;
             ChosenYIndex.Add(YCurrentLoc);
         }
     }
@@ -236,28 +222,26 @@ class ALevelGeneratorV2 : AActor
     UFUNCTION()
     void GenerateObstacles() 
     {
-
         SelectSpawnLocations();
-        //Show spawn points
 
         for(int x = 0; x < LocationPointX.Num(); x++)
         {
             float XLocation = LocationPointX[x];
-
+            
             for (int y = 0; y < LocationPointY.Num(); y++) 
             {
                 PointRepresent = SpawnActor(PointRepresentType, FVector(FVector(XLocation, LocationPointY[y], 150)));
             }
-
             NumberOfSpawn++;
         }
 
         for (int i = 0; i < ChosenXIndex.Num(); i++)
         {
-            Obstacle = SpawnActor(ObstacleType, FVector(LocationPointX[ChosenXIndex[i]], LocationPointY[ChosenYIndex[i]] , 150));
+            
+            FVector CurrentSpawnLoc = FVector(LocationPointX[ChosenXIndex[i]], LocationPointY[ChosenYIndex[i]], 150);
+            Obstacle = SpawnActor(ObstacleType, CurrentSpawnLoc);
             ObstacleStateArray.Add(Obstacle); 
         }
-
     }
 
     UFUNCTION()

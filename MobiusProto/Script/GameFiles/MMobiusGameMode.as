@@ -4,8 +4,8 @@ event void FSetPlayerReference(APawn OurPawn);
 
 class AMobiusGameMode : AGameModeBase
 {
-    float GlobalMovementSpeed = 10000;
-    float SpeedIncreaseAmount = 1000;
+    float GlobalMovementSpeed = 22000;
+    float SpeedIncreaseAmount = 1200;
     // float PlayerSpeed = 4870000000.0f;
 
     int MaxHealthRef = 3;
@@ -17,6 +17,12 @@ class AMobiusGameMode : AGameModeBase
     FSpeedDifficultyIncrease EventSpeedIncrease; 
     FHaltSpeed EventHaltSpeed;
     FSetPlayerReference EventSetPlayerReference; 
+
+    float XGridPosMultiplier = 2900.0f;
+    float YGridPosMultiplier = 850.0f;
+    int XRows = 30.0f;
+    int YRowDirectionCount = 2.0f; 
+    int YMaxIndexCount = YRowDirectionCount * 2; 
 
     UPROPERTY()
     float PointRate = 0.1f;
@@ -67,8 +73,6 @@ class AMobiusGameMode : AGameModeBase
     {
         GlobalMovementSpeed += SpeedIncreaseAmount;
         SpeedIncreaseAmount *= 0.95f;
-        // PlayerSpeed *= 2;
-        // Print("GM P Speed: " + PlayerSpeed, 5);
         EventSpeedIncrease.Broadcast();
     }
 
